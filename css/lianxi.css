@@ -1,0 +1,24 @@
+img{
+    width: 500px;
+    height: 500px;
+}
+a{
+    display:inline-block;
+	color: white;
+}
+li{
+    display:inline-block;
+	background-color: #491217;
+	width:100px;
+	border-radius: 20px;
+	margin: 5px;
+}
+.margin_0_auto{
+margin: 0 auto;
+}
+.text_center{
+text-align: center;
+}
+.w800{
+	width: 800px;
+}

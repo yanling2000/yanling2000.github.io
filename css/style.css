@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+div,h1,h2,body,ul,li,p{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+p{ 
+	font-size:15px;
+	text-align:left;
+	text-indent:2em;
+	line-height:24px;
+	margin:0px auto 0px auto;
+	padding:10px 0px 10px 0px;
+}
+.margin_0_auto{
+	margin: 0 auto;
+}
+.w1000{
+	width: 1000px;
+}
+.w600{
+	width: 600px;
+}
+.w400{
+	width: 400px;
+}
+.h300{
+	height: 300px;
+}
+.h70{
+	height: 70px;
+}
+.padding30{
+	padding: 30px;
+}
+.float_left{
+	float:left;
+}
+.float_right{
+	float:right;
+}
+.clear_both{
+	clear:both;
+}
+.padding_20{
+	padding-top:20px;
+}
+.bg_top{
+	background-image:url(../images/toubu.jpg);
+	background-position: center center;
+	background-size: 100% 100%;
+}
+.bg_daohang{
+	background-image:url("../images/tou.jpg");
+	background-position: center center;
+	background-size: 100% 100%;
+}
+.bg_neirong{
+	background-image: url("../images/beijingxin.jpg");
+}
+.bg_banquan{
+	background-image: url("../images/di.jpg");
+}
+#top h1{
+	padding:50px 30px 90px 80px;
+}
+#top p{
+	padding: 20px 250px 0 30px;
+}
+#daohang ul{
+	list-style:none;
+	}
+#daohang li{
+	float:left;
+	}
+#daohang a{
+	display:block;
+	width:200px;
+	height:70px;
+	text-align:center;
+	line-height:70px;
+}
+#neirong ul{
+	list-style:none;
+}
+#neirong li{
+	line-height:30px;
+}
+#banquan{
+	text-align:center;
+	line-height: 70px;
+}

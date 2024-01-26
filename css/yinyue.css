@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+div,h1,h2,body,ul,li,p{
+	margin:0px;
+	padding:0px;
+}
+#top{
+	width:1000px;
+	height:270px;
+	background-image:url(../images/yinyuetou.jpg);
+	margin:0px auto 0px auto;
+}
+h1{
+	padding-left:100px;
+	padding-top:140px;
+}
+p{
+	font-size:12px;
+	text-align:left;
+	text-indent:3em;
+	line-height:29px;
+	margin:0px auto 0px auto;
+}
+#daohang{
+	width:1000px;
+	height:30px;
+	background-image:url(../images/yinyuedaohang.jpg);	
+	margin:0px auto 0px auto;
+}
+#baohang ul{
+	list-style:none;
+}
+#daohang li{
+	list-style:none;
+	float:left;
+}
+#daohang a{
+		text-align:center;
+		width:190px;
+		display:block;
+}
+#main{
+	width:1000px;
+	height:800px;
+	background-image:url(../images/yinyuebengjing.jpg);
+	margin:0px auto 0px auto;
+}
+#zuo{
+	padding-left:30px;
+	width:266px;
+	height:800px;
+	float:left;
+}
+#zhong{
+	padding-right:30px;
+	width:266px;
+	height:800px;
+	float:left;
+	padding-left:80px;
+}
+#you{
+	width:266px;
+	height:800px;
+	float:right;
+}
+#banquan{
+	width:1000px;
+	height:150px;
+	background-image:url(../images/yinyuedi.jpg);
+    margin:0px auto 0px auto;
+}
+#bq{
+	padding-left:350px;
+	padding-top:50px;
+	font-size:18px;
+}

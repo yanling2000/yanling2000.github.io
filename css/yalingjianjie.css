@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+p,div,h1,h2,a,ul,li,ol,hr{
+	padding:0;
+	margin:0;
+	border:0;
+}
+body{
+	font-family:"宋体", "楷体", "隶书";
+	font-size:14px;
+}
+p{
+	text-align:left;
+	text-indent:2em;
+	line-height:26px;
+}
+.w1000{
+	width:1000px;
+}
+.w600{
+	width:600px;
+}
+.w400{
+	width:400px;
+}
+.h300{
+	height:300px;
+}
+.h50{
+	height:50px;
+}
+.margin_0_auto{
+	margin:0 auto;
+}
+.bg_fengshu{
+	background-image:url(../images/top.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.bg_daohang{
+	background-image:url(../images/tou.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.bg_main{
+	background-image:url(../images/beijingxin.jpg);
+	background-repeat:repeat-y;
+	background-position:top center;
+}
+.float_left{
+	float:left;
+}
+.float_right{
+	float:right;
+}
+.clear_both{
+	clear:both;
+}
+#top h1{
+	padding:50px 0 0 200px;
+}
+#top p{
+	padding:130px 300px 0 30px;
+}
+#daohang ul{
+	list-style:none;
+}
+#daohang li{
+	float:left;
+}
+#daohang a{
+	display:block;
+	width:200px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+}
+
+
+
+
+
+#jianjie{
+	background-color:green;
+}
+#geyan{
+	background-color:red;
+}

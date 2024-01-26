@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+div,h1,h2,body,ul,li,p{
+	margin:0px;
+	padding:0px;
+}
+#top{
+	width:1000px;
+	height:328px;
+	background-image:url(../images/xiangpiantou.jpg);
+	margin:0px auto 0px auto;
+}
+h1{
+	padding:70px 130px;
+}
+p{ 
+	font-size:15px;
+	text-align:left;
+	text-indent:2em;
+	line-height:18px;
+    margin:0px auto 0px auto;
+}
+#daohang{
+	width:1000px;
+	height:30px;
+	background-image:url(../images/xiangpiandaohang.jpg);	
+	margin:0px auto 0px auto;
+}
+#baohang ul{
+	list-style:none;
+	}
+#daohang li{
+	float:left;
+	list-style:none;
+	}
+#daohang a{
+		text-align:center;
+		width:190px;
+		height:30px;
+		line-height:30px;
+		display:block;
+}
+h4{
+	text-align:center;
+}
+#main{
+	width:1000px;
+	height:800px;
+	background-image:url(../images/xiangcebeijng.jpg);
+	margin:0px auto 0px auto;
+}
+#zuo{
+	padding:30px 10px 10px 40px;
+	width:240px;
+	height:730px;
+	float:left;
+}
+#zhong{
+	padding:20px 15px 10px 25px;
+	width:355px;
+	height:755px;
+	float:left;
+	margin:0px auto 0px auto;	
+}
+#you{
+	padding-top:30px;
+	width:299px;
+	height:740px;
+	float:right;
+}
+#banquan { 
+    width:1000px;
+	height:30px;
+	margin:0px auto 0px auto;
+	background-image:url(../images/xiangcedi.jpg);
+}
+#bq{
+	   padding-top:5px;
+	   text-align:center;
+}
