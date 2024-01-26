@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			.father_column{				
+				background-color: #20C997;
+				display: flex;
+				flex-direction:column;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-items: stretch;
+			}
+			.son{				
+				background-color: #0056B3;
+				margin: 10px;
+			}
+			.father_row{
+				background-color: yellow;
+				display: flex;
+				flex-direction:row;
+				flex-wrap: wrap;
+				justify-content:space-around;
+				align-items: stretch;
+			}
+			.green{
+				background-color: dimgrey;
+				margin: 10px;
+			}
+			.flex{
+				flex:1 1 600px;
+			}
+			.w600{
+				width: 800px;
+			}
+			.w300{
+				width: 400px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="father">
+			<div class="son">
+				son1son1son1son1son1son1son1son1son1
+			</div>
+			<div class="son">
+				son2
+			</div>
+			<div class="son father_row">
+				<div class="son flex green w600">
+					son3-1
+				</div>
+				<div class="son flex green w300">
+					son3-2
+				</div>
+			</div>
+			<div class="son">
+				son4
+			</div>
+		</div>
+	</body>
+</html>

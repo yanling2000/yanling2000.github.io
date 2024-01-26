@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>浮动塌陷</title>
+		<style type="text/css">
+			div{
+			/* border: #000000 1px solid;
+			margin: 0px; */
+		}
+			.father{
+				background-color: #0062CC;
+				width: 500px;
+				overflow:auto;
+			}
+			.son1{
+				float: left;
+				height: 100px;
+				background-color: red;
+			}
+			.son2{
+				float: right;
+				background-color: green;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<div class="father">
+			
+			<div class="son1">
+				左浮动
+			</div>
+			<div class="son2">
+				右浮动
+			</div>
+			
+			
+		</div>
+		<p>father后面的元素</p>
+		<p>father后面的元素</p>
+	</body>
+</html>
